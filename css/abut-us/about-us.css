@@ -1,0 +1,94 @@
+.about-us {
+  max-width: 100%;
+  background-color: none;
+  padding: 225px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-us h2 {
+  margin-bottom: 20px;
+  width: 825px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: "Calibri", "Arial", sans-serif;
+  color: #141419;
+  font-weight: bold;
+  line-height: normal;
+  text-align: center;
+}
+.about-us h2 span {
+  background: linear-gradient(0deg, #fb973b 10px, #ffffff 51%);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: bottom 15px left 0;
+}
+.about-us__subtitle {
+  max-width: 510px;
+  font-size: 24px;
+  font-family: "Calibri", "Arial", sans-serif;
+  color: #616161;
+  line-height: normal;
+  text-align: center;
+}
+.about-us__subtitle span {
+  color: #fb973b;
+}
+
+.conteiner {
+  max-width: 824px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+}
+.conteiner__img-place {
+  width: 410px;
+}
+.conteiner__img-place__img {
+  width: 100%;
+}
+.conteiner__text-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner__text-place__img-place {
+  width: 20px;
+  margin: 20px 0 20px 0;
+}
+.conteiner__text-place__img-place:first-child {
+  margin: 0 0 20px 0;
+}
+.conteiner__text-place__img-place__img {
+  width: 100%;
+}
+.conteiner__text-place__text {
+  width: 410px;
+}
+.conteiner__text-place__text__content {
+  font-size: 18px;
+  font-family: "Calibri", "Arial", sans-serif;
+  color: #141419;
+  line-height: 1.389;
+  text-align: center;
+}
+/*# sourceMappingURL=about-us.css.map */

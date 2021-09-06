@@ -1,0 +1,85 @@
+.lamp {
+  max-width: 100%;
+  background-color: none;
+  padding: 105px 0 0 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.lamp h1 {
+  width: 665px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: "Calibri", "Arial", sans-serif;
+  color: #141419;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.lamp h1 span {
+  background: linear-gradient(0deg, #fb973b 10px, #ffffff 51%);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: bottom 15px left 0;
+}
+.lamp p {
+  max-width: 325px;
+  font-size: 24px;
+  font-family: "Calibri", "Arial", sans-serif;
+  color: #616161;
+  line-height: 1.5;
+  text-align: left;
+}
+.lamp p span {
+  color: #fb973b;
+}
+.lamp form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 390px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.lamp form input {
+  width: 195px;
+  padding: 22px 33px;
+  font-size: 18px;
+  font-family: "SFUIDisplay";
+  color: #141419;
+  line-height: normal;
+  text-align: center;
+  border-left: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #f8f8f8;
+}
+.lamp form button {
+  width: 195px;
+  padding: 20px 53px;
+  font-size: 18px;
+  font-family: "SFUIDisplay";
+  color: white;
+  line-height: normal;
+  background-color: #fb973b;
+}
+.lamp__image {
+  position: absolute;
+  width: 980px;
+  z-index: -2;
+  left: 550px;
+  top: 35px;
+}
+.lamp__image img {
+  width: 980px;
+}
+/*# sourceMappingURL=lamp.css.map */
